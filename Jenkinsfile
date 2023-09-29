@@ -9,7 +9,7 @@ pipeline {
         stage('build') {
           steps {
             echo 'compile maven app'
-            echo 'Ashish Gupta'
+            echo 'Ashish Gupta in another branch'
             sh 'mvn compile'
             sleep 180
           }
